@@ -14,7 +14,6 @@ namespace Sorter
         {
             return items;
         }
-
         public void setItems(System.Windows.Forms.ListBox.ObjectCollection objects)
         {
             items = new string[objects.Count];
